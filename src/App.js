@@ -3,11 +3,14 @@ import React from 'react';
 class App extends React.Component{
 
   state = {
-    nome : 'Jacinto Lela'
+    nome : ''
   }
 
-  modificarNome = (e) => {
-
+  modificarNome = (event) => {
+    let nome = event.target.value;
+    this.setState({
+      nome: nome
+    })
   }
 
   render(){
