@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Mon Jan 04 2021 16:55:21 GMT-0300 (Horário Padrão de Brasília)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-4-0-2021-16-25-3.txt
+
+
+Deleted files:
+
+
+Renamed files:
