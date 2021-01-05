@@ -14,12 +14,12 @@ class App extends React.Component{
 
   render(){
     return(
-      <React.Fragment>
+      <>
         <input type="text" value={this.state.nome} onChange={this.modificarNome}/>
         <h1>Hello {this.state.nome} !</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-        <button>Salvar</button>
-      </React.Fragment>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry... </p>
+        <button>Salvar Agora</button>
+      </>
     )
   }
 }
